@@ -1,0 +1,46 @@
+
+0
+java:S1220""Move this file to a named package.
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(ôøÒˆúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÛ½‰þÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ìú¨»
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Žœªë
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(º¤½˜
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(‰‡¤¦ÿÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(¾­úõÿÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ØÌ®ùüÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(¸öåê
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(Ù©È±
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(Ù©È±
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(Ù©È±
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(Ø“ÕÄ
+M	java:S106~"9Replace this use of System.out or System.err by a logger.(‚½ñV
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(”Ë—çúÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(è™ºÊýÿÿÿÿ
+O	java:S106¼"9Replace this use of System.out or System.err by a logger.(˜ÔüÈ
+R	java:S125®"<This block of commented-out lines of code should be removed.(™ƒÉÆ
+B
+java:S1481À"&Remove this unused "x" local variable.(èé‹üûÿÿÿÿ
+A
+java:S1197Á"*Move the array designators [] to the type.(­‹©û
+N	java:S106Ä"9Replace this use of System.out or System.err by a logger.(¶ùe
+T	java:S106Ç"9Replace this use of System.out or System.err by a logger.(Î£»¬ûÿÿÿÿ
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ø»æŽúÿÿÿÿ
+T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O	java:S106Î"9Replace this use of System.out or System.err by a logger.(ãÊ¦
+T	java:S106Ú"9Replace this use of System.out or System.err by a logger.(ôúëüÿÿÿÿÿ
+O	java:S106Ý"9Replace this use of System.out or System.err by a logger.(ƒÇýà
+T	java:S106ß"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+T	java:S106à"9Replace this use of System.out or System.err by a logger.(Ôç¬ìùÿÿÿÿ
+F
+java:S1197á"*Move the array designators [] to the type.(«â©þÿÿÿÿ
+T	java:S106ä"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O	java:S106ç"9Replace this use of System.out or System.err by a logger.(ÀêÈŠ
+O	java:S106ë"9Replace this use of System.out or System.err by a logger.(¢¹™å
+i	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž±‰†üÿÿÿÿ
+O	java:S106³"9Replace this use of System.out or System.err by a logger.(º¼É°
+d	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù«ï¶
+e
+java:S1128"ORemove this unused import 'javax.swing.plaf.basic.BasicInternalFrameTitlePane'.(‹£¬¥

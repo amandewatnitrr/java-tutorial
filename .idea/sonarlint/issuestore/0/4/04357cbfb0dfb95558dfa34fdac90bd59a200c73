@@ -1,0 +1,14 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â‚ááÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+m	java:S116"SRename this field "emp_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔŠ“¿şÿÿÿÿ
+f	java:S116"QRename this field "emp_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î®¼¸
+o	java:S116"URename this field "emp_gender" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÙÛÖıÿÿÿÿ
+l	java:S116"RRename this field "emp_age" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôüÂûÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯´—Áùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(œ¬—Ê
+S	java:S106"9Replace this use of System.out or System.err by a logger.(À„Çæÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÏªƒşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Óôşäùÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(¥ñƒÁ
