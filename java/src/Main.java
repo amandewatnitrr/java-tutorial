@@ -1175,10 +1175,17 @@ public class Main {
          * 
          * Final blocks are used to execute code that must be executed no matter what.
          * 
+         * Also, if you want to throw an exception of your own. Use the following method:
+         * 
+         * throw new IllegalArgumentException("Message");
+         * 
+         * Because illegal argument exception extends runtime exception, ...
+         * it is an unchecked exception and we do not need to declare that our method throws this exception.
+         * 
          */
 
          File file = new File("resources/nonexsistent.txt");
-         try(Scanner fileReader = new Scanner(file);){ // this is an example of try-with-resources
+         try(Scanner fileReader = new Scanner(file)){ // this is an example of try-with-resources
             while(fileReader.hasNext()){
                 System.out.println(fileReader.nextDouble());
             }
@@ -1194,6 +1201,11 @@ public class Main {
          }
          */
     }
+
+    public static void function20()
+        {
+            
+        }
 
     /**
      * @param arr is the array to be printed.
