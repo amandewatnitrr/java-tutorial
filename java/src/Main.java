@@ -2,6 +2,9 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.*;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 
 /**
@@ -1127,7 +1130,69 @@ public class Main {
      * Notes on Exception Handling
      */ 
     public static void function19() {
-        
+        /*
+         * An Exception is an event that occurs at runtime due to an error.
+         * It is an object that is thrown by the JVM when an error occurs.
+         * 
+         * Types of Exceptions:
+         * 1. Checked Exceptions: These are the exceptions that are checked at compile time. They are verified by Compiler.
+         * 2. Unchecked Exceptions: These are the exceptions that are not checked at compile time.
+         * 
+         * Exceptions are Objects, which means we have access to helpful methods for dealing with them.
+         * `getMessage()` method returns the message of the exception.
+         * 
+         * Exceptions also have stack traces.
+         * A Stack trace is an interactive log of method calls that led to a thrown exception.
+         * It allows programmers to trace the path,  the program has taken and it's helpful in...
+         * figuring out what and where things may have gone wrong.
+         * 
+         * An IOException is a checked exception, which means it must be handled or declared.
+         * InputMismatchException is an unchecked exception, which means it does not need to be handled or declared.
+         * 
+         * There are 3 ways to handle multiple exceptions at once:
+         * - Polymorphism
+         * - Series of Catch Blocks
+         * - Multiple Catch Blocks
+         * 
+         * When handling exceptions, we can use a super class, as a way to catch border exceptions.
+         * All exceptions inherit from exception class.
+         * 
+         * We could use polymorphism, and instead of catching the IOexception, we can specify...
+         * one of it's superclasses.
+         * 
+         * An alternative option is to use multiple catch clauses to handle different type of exceptions.
+         * 
+         * When resources such as input or output streams are opened and an exception interrupts ...
+         * the flow of the program those resources aren't closed properly unless the programmer ...
+         * took extra precautions to do so. One way to solve this is by closing the resources in a finally block.
+         * But a better approach is to use try-with-resources. 
+         * Try-with-resources allows you to declare resources that will be used within the try block. 
+         * And Java will automatically close them for you after the execution of the block. 
+         * To try-with-resources we use a set of parentheses after the word try, and inside we ...
+         * declare and initialize the resource.When we have the resource...
+         * declared at this level we don't need a finally clause to close the resource. 
+         * You can also specify multiple resources to close.
+         * 
+         * Final blocks are used to execute code that must be executed no matter what.
+         * 
+         */
+
+         File file = new File("resources/nonexsistent.txt");
+         try(Scanner fileReader = new Scanner(file);){ // this is an example of try-with-resources
+            while(fileReader.hasNext()){
+                System.out.println(fileReader.nextDouble());
+            }
+         }
+
+         catch(FileNotFoundException | InputMismatchException e){
+            e.printStackTrace();
+         }
+
+         /*
+         finally{
+            fileReader.close();
+         }
+         */
     }
 
     /**
@@ -1157,7 +1222,7 @@ public class Main {
      * This is the main function, where execution starts.
      */
     public static void main(String[] args) {
-        function18();
+        function19();
     }
 
 }
